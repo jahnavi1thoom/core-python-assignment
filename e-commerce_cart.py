@@ -1,4 +1,4 @@
-
+#function to calculate the total price by including discount
 def total(my_dict):
     if not my_dict:
         return 0
@@ -11,7 +11,7 @@ def total(my_dict):
          discount=(10/100)*total_price
          final_price=total_price-discount
          return final_price
-            
+#input            
 n=int(input())
 my_dict={}
 for _ in range(n):
